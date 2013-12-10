@@ -1,0 +1,121 @@
+<html><head>
+    <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+        <link href="navbar.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+        <style type="text/css">
+            body{
+                    background-image:url(img/IMG_1.jpg);
+                    background-size: 100% 100%;
+                    background-attachment:fixed;
+                }
+        </style>
+    </head>    
+    <body>
+        <!-- Static navbar -->
+        <div class="navbar navbar-default">
+            <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Present</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="main.html">Home</a></li>
+                <li><a href="events.hmtl">My Events</a></li>
+                <li><a href="Search.hmtl">Schools</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header">My Interests</li>
+                    <li><a href="#">Interests</a></li>
+                    <li class="dropdown-header">Personal</li>
+                    <li><a href="#">Other Projects</a></li>
+                  </ul>
+                </li>
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="login_user.html">User Login</a></li>
+                    <li><a href="sign_up.html">Register!</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        
+        <h1 style="text-align:center">User Registration</h1>
+        <!-- needs to be tweaked so that all the boxes line up properly -->
+        <fieldset>
+<form class="form-horizontal" style="text-align:center">
+<!-- Text input-->
+<!-- Firt name-->
+<div class="control-group">
+  <label class="control-label" for="textinput"></label>
+  <div class="controls">
+    <input id="firstname" name="firstname" type="text" placeholder="First Name" class="input-xlarge">
+    
+<!-- Last Name-->
+  </div>
+</div>
+    <div class="control-group">
+  <label class="control-label" for="textinput"></label>
+  <div class="controls">
+    <input id="lastname" name="lastname" type="text" placeholder="Last Name" class="input-xlarge">
+    
+  </div>
+</div>
+<div class="control-group">
+  <label class="control-label" for="textinput"></label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="Username" class="input-xlarge">
+    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="control-group">
+  <label class="control-label" for="passwordinput"></label>
+  <div class="controls">
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="Password" class="input-xlarge">
+    
+  </div>
+</div>
+
+<div class="control-group">
+  <label class="control-label" for="passwordinput"></label>
+  <div class="controls">
+    <input id="passwordconfirm" name="passwordconfirm" type="password" placeholder="Confirm Password" class="input-xlarge">
+    
+  </div>
+</div>
+<!-- Button -->
+<div class="control-group">
+  <label class="control-label" for="singlebutton"></label>
+  <div class="controls">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Register!</button>
+  </div>
+</div>
+        
+                <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/boostrap.min.js"></script>
+        
+        </form>
+    </body>
+</html> 
